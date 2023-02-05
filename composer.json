@@ -1,0 +1,26 @@
+{
+  "name": "csdev/crusorphp",
+  "description": "curso de php 8",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "sistemas\\": "sistemas/"
+    },
+    "files": [
+      "sistemas/configuracao.php",
+      "sistemas/Nucleo/Mensagem.php",
+      "sistemas/Nucleo/Controlador.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Claudio"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.2.0",
+    "pecee/simple-router": "dev-master",
+    "twig/twig": "^3.0"
+  }
+}
